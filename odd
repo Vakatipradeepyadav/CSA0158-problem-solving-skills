@@ -1,0 +1,20 @@
+#include<stdio.h>
+int main()
+{
+	int a=1;
+	int sum=0;
+	int num;
+	printf("\n enter the maximum number value:");
+	scanf("%d",&num);
+	printf("the odd number in the list are");
+	while(a <= num)
+	{
+		printf("%d\t",a);
+		sum=sum+a;
+		
+		a=a+2;
+		
+	}
+	printf("sum of all odd numbers =%d\n",sum);
+	
+}
