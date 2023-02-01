@@ -1,0 +1,32 @@
+#include<stdio.h>
+int main()
+{
+	int score;
+	printf("enter score(0-100):");
+	scanf("%d",&score);
+	switch(score/10)
+	{
+		case 10:
+			case 9:
+				printf("grade: a");
+				break;
+				
+				case 8:
+					printf("grade: b");
+					break;
+					
+					case 7:
+						printf("grade: c");
+						break;
+						
+						case 6:
+							printf("grade: d");
+							break;
+							
+							default:
+								printf("grade: f");
+								break;
+							
+	}
+	return 0;
+}
