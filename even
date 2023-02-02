@@ -1,0 +1,17 @@
+#include<stdio.h>
+int main()
+{
+	int a=2;
+	int sum=0;
+	int num;
+	printf("\nenter the maximum value:");
+	scanf("%d",&num);
+	printf("even number in the list");
+	while(a <= num)
+	{
+		printf("%d\t",a);
+		sum=sum+a;
+		a=a+2;
+	}
+	printf("sum of all even numbers = %d\n",sum);
+}
